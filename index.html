@@ -3,6 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>アンパンマンずかん</title>
+    <style>
+    /* 通常画像のスタイル */
+    .hover-img {
+      width: 200px;
+      transition: 0.3s;
+    }
+
+    /* マウスをのせた時に別の画像に切り替える */
+    .syabondaman:hover {
+      content: url("syabondaman_hover.png");
+    }
+
+    .toasterman:hover {
+      content: url("toasterman_hover.png");
+    }
+
+    .kamabokokun:hover {
+      content: url("kamabokokun_hover.png");
+    }
+
+    .norihei:hover {
+      content: url("norihei_hover.png");
+    }
+
+    .panta:hover {
+      content: url("panta_hover.png");
+    }
+  </style>
 </head>
 <body>
   <h1>アンパンマンずかん</h1>
@@ -11,19 +39,19 @@
   <h2>キャラクター</h2>
   <ul>
     <li>シャボンダマン<br>
-    <img src="syabondaman.png" alt="シャボンダマン" width="200">
+    <img src="syabondaman.png" alt="シャボンダマン" class="hover-img syabondaman">
      </li>
     <li>トースターまん<br>
-       <img src="toasterman.png" alt="トースターまん" width="200">
+        <img src="toasterman.png" alt="トースターまん" class="hover-img toasterman">
     </li>
     <li>かまぼこくん<br>
-     <img src="kamabokokun.png" alt="かまぼこくん" width="200">
+     <img src="kamabokokun.png" alt="かまぼこくん" class="hover-img kamabokokun">
     </li>
     <li>ノリノリのりへい<br>
-       <img src="norihei.png" alt="ノリノリのりへい" width="200">
+      <img src="norihei.png" alt="ノリノリのりへい" class="hover-img norihei">
     </li>
     <li>うずまきパンタ<br>
-      <img src="panta.png" alt="うずまきパンタ" width="200">
+     <img src="panta.png" alt="うずまきパンタ" class="hover-img panta">
     </li>
   </ul>
 </body>
