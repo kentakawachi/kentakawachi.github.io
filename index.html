@@ -7,20 +7,21 @@
  <style>
   ul {
     display: flex;
-    flex-wrap: wrap; /* 折り返す */
-    list-style: none; /* ・を消す */
+    flex-wrap: wrap;   /* 折り返す */
+    justify-content: center; /* 中央寄せ */
+    list-style: none;
     padding: 0;
     margin: 0;
+    gap: 20px; /* アイテム同士の間隔 */
   }
   li {
-    width: 50%;   /* ← ちょうど半分 */
-    margin: 0;    /* ← 間隔なし */
+    flex: 0 0 auto; /* 自動サイズ (幅固定しない) */
     text-align: center;
-    box-sizing: border-box;
   }
   img {
     display: block;
     margin: 0 auto;
+    width: 200px; /* 画像の大きさ */
   }
 </style>
 </head>
