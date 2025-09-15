@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>アンパンマンずかん</title>
   <script src="hover.js" defer></script>
-  <style>
+ <style>
   ul {
     display: flex;
     flex-wrap: wrap; /* 折り返す */
@@ -13,9 +13,10 @@
     margin: 0;
   }
   li {
-    width: 30%; /* ← 狭くしてみる */
-    margin: 5px; /* ← 余白を小さく */
-    text-align: center; 
+    width: 48%; /* ← ほぼ半分にして二列固定 */
+    margin: 1%;  /* ← 少しだけ余白を残す */
+    text-align: center;
+    box-sizing: border-box; /* 幅計算にmargin含める */
   }
   img {
     display: block;
