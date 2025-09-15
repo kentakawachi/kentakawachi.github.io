@@ -27,10 +27,13 @@
     flex: 0 0 auto; /* 自動サイズ (幅固定しない) */
     text-align: center;
   }
-  img {
+   img {
+    max-width: var(--img-w);
+    height: auto;
     display: block;
-    margin: 0 auto;
-    width: 200px; /* 画像の大きさ */
+    margin: 0 auto 10px; /* 下に余白 */
+    border: 3px solid blue; /* 青い枠線 */
+    border-radius: 8px;     /* 角を少し丸く */
   }
    .title-image {
   display: block;
