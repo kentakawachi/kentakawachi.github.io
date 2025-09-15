@@ -3,32 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <title>アンパンマンずかん</title>
-   <script src="hover.js" defer></script>
+  <script src="hover.js" defer></script>
+  <style>
+    ul {
+      display: flex;
+      flex-wrap: wrap; /* 折り返す */
+      list-style: none; /* ・を消す */
+      padding: 0;
+    }
+    li {
+      width: 45%; /* 二列にするために幅を設定 */
+      margin: 10px;
+      text-align: center; /* 画像と文字を中央寄せ */
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
   <h1>アンパンマンずかん</h1>
   <p>アンパンマンのせかいへようこそ！</p>
   
   <h2>キャラクター</h2>
-  <li>
-   <a href="syabondaman_kami.pdf" target="_blank">シャボンダマン</a><br>
-    <img id="syabondaman" src="syabondaman.png" alt="シャボンダマン" width="200">
-     </li>
-  <li>
-   <a href="toasterman_kami.pdf" target="_blank">トースターまん</a><br>
-        <img id="toasterman" src="toasterman.png" alt="トースターまん" width="200">
+  <ul>
+    <li>
+      <a href="syabondaman_kami.pdf" target="_blank">シャボンダマン</a><br>
+      <img id="syabondaman" src="syabondaman.png" alt="シャボンダマン" width="200">
     </li>
-  <li>
-     <a href="kamabokokun_kami.pdf" target="_blank">かまぼこくん</a><br> 
-    <img id="kamabokokun" src="kamabokokun.png" alt="かまぼこくん" width="200">
+    <li>
+      <a href="toasterman_kami.pdf" target="_blank">トースターまん</a><br>
+      <img id="toasterman" src="toasterman.png" alt="トースターまん" width="200">
     </li>
-  <li>
-    <a href="norihei_kami.pdf" target="_blank">ノリノリのりへい</a><br>
-     <img id="norihei" src="norihei.png" alt="ノリノリのりへい" width="200">
+    <li>
+      <a href="kamabokokun_kami.pdf" target="_blank">かまぼこくん</a><br> 
+      <img id="kamabokokun" src="kamabokokun.png" alt="かまぼこくん" width="200">
     </li>
-  <li>
-    　　 <a href="panta_kami.pdf" target="_blank">うずまきパンタ</a><br>
-       <img id="panta" src="panta.png" alt="うずまきパンタ" width="200">
+    <li>
+      <a href="norihei_kami.pdf" target="_blank">ノリノリのりへい</a><br>
+      <img id="norihei" src="norihei.png" alt="ノリノリのりへい" width="200">
+    </li>
+    <li>
+      <a href="panta_kami.pdf" target="_blank">うずまきパンタ</a><br>
+      <img id="panta" src="panta.png" alt="うずまきパンタ" width="200">
     </li>
   </ul>
 </body>
