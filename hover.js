@@ -46,12 +46,12 @@ window.onload = function() {
     panta.src = "panta.png";
   };
    // アイスキャンデーマン
-  let IceCreamMan = document.getElementById("IceCreamMan");
- IceCreamMan.onmouseenter = function() {
-    IceCreamMan.src = "IceCreamMan2.png";
+  let iceCreamMan = document.getElementById("IceCreamMan");
+ iceCreamMan.onmouseenter = function() {
+    iceCreamMan.src = "IceCreamMan2.png";
   };
- IceCreamMan.onmouseleave = function() {
-    IceCreamMan.src = "IceCreamMan.png";
+ iceCreamMan.onmouseleave = function() {
+    iceCreamMan.src = "IceCreamMan.png";
   };
 
 };
