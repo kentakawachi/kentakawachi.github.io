@@ -47,11 +47,11 @@ window.onload = function() {
   };
    // アイスキャンデーマン
   let IceCreamMan = document.getElementById("IceCreamMan");
-  norihei.onmouseenter = function() {
-    norihei.src = "IceCreamMan2.png";
+ IceCreamMan.onmouseenter = function() {
+    IceCreamMan.src = "IceCreamMan2.png";
   };
-  norihei.onmouseleave = function() {
-    norihei.src = "IceCreamMan.png";
+ IceCreamMan.onmouseleave = function() {
+    IceCreamMan.src = "IceCreamMan.png";
   };
 
 };
