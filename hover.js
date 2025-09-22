@@ -61,5 +61,13 @@ tekka-donMan.onmouseenter = function() {
 tekka-donMan.onmouseleave = function() {
    tekka-donMan.src = "Tekka-donMan.png";
   };
+       // ぶたまんまん
+  let porkBunMan = document.getElementById("PorkBunMan");
+porkBunMan.onmouseenter = function() {
+   porkBunMan.src = "PorkBunMan2.png";
+  };
+porkBunMan.onmouseleave = function() {
+   porkBunMan.src = "PorkBunMan.png";
+  };
 
 };
