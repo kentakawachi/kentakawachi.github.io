@@ -46,7 +46,7 @@ window.onload = function() {
     panta.src = "panta.png";
   };
    // アイスキャンデーマン
-  let norihei = document.getElementById("IceCreamMan");
+  let IceCreamMan = document.getElementById("IceCreamMan");
   norihei.onmouseenter = function() {
     norihei.src = "IceCreamMan2.png";
   };
