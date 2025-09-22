@@ -53,5 +53,13 @@ window.onload = function() {
  iceCreamMan.onmouseleave = function() {
     iceCreamMan.src = "IceCreamMan.png";
   };
+     // てっかどんマン
+  let tekka-donMan = document.getElementById("Tekka-donMan");
+tekka-donMan.onmouseenter = function() {
+    tekka-donMan.src = "Tekka-donMan2.png";
+  };
+tekka-donMan.onmouseleave = function() {
+   tekka-donMan.src = "Tekka-donMan.png";
+  };
 
 };
