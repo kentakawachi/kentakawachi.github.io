@@ -3,68 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>アンパンマンずかん</title>
+  <link rel="stylesheet" href="style.css">
   <script src="hover.js" defer></script>
- <style>
-  ul {
-    display: flex;
-    flex-wrap: wrap;   /* 折り返す */
-    justify-content: start; /* 中央寄せ */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 20px; /* アイテム同士の間隔 */
-    max-width: 900px;
-  }
-   body {
-      padding: 20px;
-      box-sizing: border-box;
-      margin: 0;
-      text-align: center; /* ページ全体のテキストを中央寄せ */
-     background-color: #ebfff2;
-    }
-  li {
-    width: 300px;
-    flex: 0 0 auto; /* 自動サイズ (幅固定しない) */
-    text-align: center;
-  }
-    .character-img {
-    max-width: var(--img-w);
-    height: auto;
-    display: block;
-    margin: 0 auto 10px; /* 下に余白 */
-    border: 3px solid blue; /* 青い枠線 */
-    border-radius: 8px;     /* 角を少し丸く */
-  }
-   .title-image {
-  display: block;
-  margin: 0 auto 20px;
-  width: 60%;        /* 画面幅の 90% */
-  max-width: 1000px; /* 最大 1000px */
-  height: auto;
-}
- .container {
-  max-width: 1000px;  /* ページ全体の最大幅（調整可能） */
-  margin: 0 auto;     /* 中央寄せ */
- }
-    .button-row {
-    display: flex;
-    justify-content: center; /* 中央寄せ */
-    gap: 10px;               /* ボタンの間隔 */
-    margin-bottom: 15px;     /* 下に余白をつけて画像と離す */
-  }
-   .button-row button {
-    background-color: #ffc908;
-    border: 2px solid #aaa;
-    border-radius: 5px;
-    padding: 8px 16px;
-    cursor: pointer;
-   width: 120px;          /* ボタンの横幅を指定 */
-    font-weight: bold;
-  }
-    .button-row button:hover {
-    background-color: gold; /* ホバーで少し濃く */
-  }
-</style>
 </head>
 <body>
   <div class="container">
